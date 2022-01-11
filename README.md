@@ -4,22 +4,22 @@ Flutter frontend for SwipeNMatch.
 This codebase ships ios and android app.
 
 ## Folder Structure
-1. assets : To store static contents
+- `assets` : To store static contents
   - fonts
   - images
   - logo
   - videos
-- cloud_functions : Cloud functions used in the app
-- screens : Actual layout of the UI for the entire application. 
+- `cloud_functions` : Cloud functions used in the app
+- `screens` : Actual layout of the UI for the entire application. 
   - flashscreen
   - onboarding : Add login/signup pages here
   - xxx : Create folder to add home screen and other screens
   - xxx : screens that are not important (eg: privacy policy, about us etc.)
-- providers : Supposed to hold all the interactions that transact the data from outside the app
-- utils : Supposed to hold app logic or business logic of the entire application.
-- widgets : Widgets/Layout used in app. Supposed to hold all the static widgets or the widgets that are used multiple times in the application.
-- models : Models of the data usually sourced from the servers, users or external APIs.
-- theme : Supposed to hold app theme (color scheme), fonts config etc. 
+- `providers` : Supposed to hold all the interactions that transact the data from outside the app
+- `utils` : Supposed to hold app logic or business logic of the entire application.
+- `widgets` : Widgets/Layout used in app. Supposed to hold all the static widgets or the widgets that are used multiple times in the application.
+- `models` : Models of the data usually sourced from the servers, users or external APIs.
+- `theme` : Supposed to hold app theme (color scheme), fonts config etc. 
 
 
 ## New to Flutter ? Start here 👇
