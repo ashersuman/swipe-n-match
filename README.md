@@ -26,7 +26,7 @@ This codebase ships ios and android app.
 ## Design Guide
 
 ## Testing
-**Please provide _unit tests_ as you go**
+**Please provide _unit tests_ as you go**.
 Flutter unit test [guide](https://docs.flutter.dev/cookbook/testing/unit/introduction)
 
 ## New to Flutter ? Start here 👇
