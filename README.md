@@ -21,6 +21,13 @@ This codebase ships ios and android app.
 - `models` : Models of the data usually sourced from the servers, users or external APIs.
 - `theme` : Supposed to hold app theme (color scheme), fonts config etc. 
 
+## Contributing Guide
+
+## Design Guide
+
+## Testing
+**Please provide _unit tests_ as you go**
+Flutter unit test [guide](https://docs.flutter.dev/cookbook/testing/unit/introduction)
 
 ## New to Flutter ? Start here 👇
 
