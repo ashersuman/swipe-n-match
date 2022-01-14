@@ -1,7 +1,6 @@
 # swipe_n_match
 
 ![build](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg)
-
 ![Made with Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 Flutter frontend for SwipeNMatch.
