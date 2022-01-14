@@ -1,8 +1,8 @@
 # swipe_n_match
 
 ![build](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg)
-![example event parameter](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg?event=push)
-![Made with ❤](#)
+
+![Made with Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 Flutter frontend for SwipeNMatch.
 This codebase ships ios and android app.
