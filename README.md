@@ -1,6 +1,7 @@
 # swipe_n_match
 
 ![build](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg)
+![Workflow event parameter](https://github.com/github/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg?event=push)
 
 Flutter frontend for SwipeNMatch.
 This codebase ships ios and android app.
