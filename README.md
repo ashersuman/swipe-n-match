@@ -1,5 +1,7 @@
 # swipe_n_match
 
+![build](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg)
+
 Flutter frontend for SwipeNMatch.
 This codebase ships ios and android app.
 
