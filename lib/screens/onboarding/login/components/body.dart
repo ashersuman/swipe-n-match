@@ -28,32 +28,24 @@ class Body extends StatelessWidget {
                 fontSize: kHeading1,
               ),
             ),
-            
             SizedBox(height: size.height * 0.03),
-      
             SvgPicture.asset(
               "assets/images/login.svg",
               height: size.height * 0.35,
             ),
-      
             SizedBox(height: size.height * 0.03),
-      
             RoundedInputField(
               hintText: "Your Email",
               onChanged: (value) {},
             ),
-            
             RoundedPasswordField(
               onChanged: (value) {},
             ),
-            
             RoundedButton(
               text: "Login",
               onPress: () {},
             ),
-            
             SizedBox(height: size.height * 0.03),
-            
             AlreadyHaveAnAccountCheck(
               onPress: () {},
             )
