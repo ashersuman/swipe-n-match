@@ -1,9 +1,9 @@
-# swipe_n_match
+# swipe_n_watch
 
 ![build](https://github.com/ashersuman/swipe-n-match/actions/workflows/main.yml/badge.svg)
 ![Made with Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-Flutter frontend for SwipeNMatch.
+Flutter frontend for SwipeNWatch.
 This codebase ships ios and android app.
 
 ## Folder Structure
