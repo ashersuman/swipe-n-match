@@ -31,16 +31,13 @@ class Body extends StatelessWidget {
             SizedBox(
               height: size.width * 0.02,
             ),
-          
             SvgPicture.asset(
               "assets/images/signup.svg",
               height: size.height * 0.2,
             ),
-          
             SizedBox(
               height: size.width * 0.03,
             ),
-          
             Form(
               child: Column(
                 children: const [

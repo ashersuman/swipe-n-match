@@ -9,7 +9,7 @@ class AlreadyHaveAnAccountCheck extends StatelessWidget {
   const AlreadyHaveAnAccountCheck({
     Key? key,
     this.login = true,
-    this.onPress, 
+    this.onPress,
     this.mainAxisAlignment = MainAxisAlignment.center,
   }) : super(key: key);
 

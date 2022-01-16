@@ -12,7 +12,7 @@ class RoundedInputField extends StatelessWidget {
     Key? key,
     required this.hintText,
     this.icon = Icons.person,
-    this.onChanged, 
+    this.onChanged,
     this.textInputType = TextInputType.text,
   }) : super(key: key);
 

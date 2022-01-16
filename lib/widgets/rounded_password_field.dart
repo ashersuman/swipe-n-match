@@ -8,8 +8,8 @@ class RoundedPasswordField extends StatelessWidget {
 
   const RoundedPasswordField({
     Key? key,
-    this.onChanged, 
-    this.hintText="Password",
+    this.onChanged,
+    this.hintText = "Password",
   }) : super(key: key);
 
   @override
