@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:swipe_n_match/screens/onboarding/login/components/background.dart';
+import 'package:swipe_n_match/screens/onboarding/signup/signup_screen.dart';
 import 'package:swipe_n_match/theme/constants.dart';
 import 'package:swipe_n_match/widgets/already_have_account_check.dart';
 import 'package:swipe_n_match/widgets/rounded_button.dart';
@@ -36,6 +37,7 @@ class Body extends StatelessWidget {
             SizedBox(height: size.height * 0.03),
             RoundedInputField(
               hintText: "Your Email",
+              textInputType: TextInputType.emailAddress,
               onChanged: (value) {},
             ),
             RoundedPasswordField(
@@ -47,7 +49,16 @@ class Body extends StatelessWidget {
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
-              onPress: () {},
+              onPress: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return const SignupScreen();
+                    },
+                  ),
+                );
+              },
             )
           ],
         ),

@@ -4,17 +4,19 @@ import 'package:swipe_n_match/theme/constants.dart';
 class AlreadyHaveAnAccountCheck extends StatelessWidget {
   final bool login;
   final VoidCallback? onPress;
+  final MainAxisAlignment mainAxisAlignment;
 
   const AlreadyHaveAnAccountCheck({
     Key? key,
     this.login = true,
-    this.onPress,
+    this.onPress, 
+    this.mainAxisAlignment = MainAxisAlignment.center,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: mainAxisAlignment,
       children: <Widget>[
         Text(
           login ? "Don't have an Account ? " : "Already have an Account ? ",
